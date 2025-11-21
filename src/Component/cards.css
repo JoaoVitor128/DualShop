@@ -1,0 +1,30 @@
+.cardsContainer {
+  /* Use CSS Grid to enforce 3 columns on desktop and 1 column on mobile */
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: var(--bg-secondary);
+  padding: 20px;
+  border-radius: var(--card-radius);
+  border: 1px solid var(--border);
+  transition: var(--transition);
+
+  width: 272px;
+  height: 272px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+img {
+  width: 225px;
+  height: 225px;
+}

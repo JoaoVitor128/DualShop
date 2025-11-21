@@ -1,0 +1,122 @@
+{ 
+  "products":[
+  {
+    "id": 1,
+    "name": "Camisa do Bahia",
+    "price": 199.99,
+    "image": "./src/assets/camisaBahia.webp"
+  },
+    {
+    "id": 2,
+    "name": "Camisa do Bota Fogo",
+    "price": 199.99,
+    "image": "./src/assets/camisaBotaFogo.webp"
+  },
+    {
+    "id": 3,
+    "name": "Camisa do Red Bull Bragantino",
+    "price": 199.99,
+    "image": "./src/assets/camisaBragantino.webp"
+  },
+    {
+    "id": 4,
+    "name": "Camisa do Ceará",
+    "price": 199.99,
+    "image": "./src/assets/camisaCeara.webp"
+  },
+    {
+    "id": 5,
+    "name": "Camisa do Corinthians ",
+    "price": 199.99,
+    "image": "./src/assets/camisaCorinthians.webp"
+  },
+    {
+    "id": 6,
+    "name": "Camisa do Cruzeiro",
+    "price": 299.99,
+    "image": "./src/assets/camisaCruzeiro.webp"
+  },
+    {
+    "id": 7,
+    "name": "Camisa do Flamengo",
+    "price": 199.99,
+    "image": "./src/assets/camisaFlamengo.webp"
+  },
+    {
+    "id": 8,
+    "name": "Camisa do Fluminense",
+    "price": 199.99,
+    "image": "./src/assets/camisaFluminense.webp"
+  },
+    {
+    "id": 9,
+    "name": "Camisa do Fortaleza",
+    "price": 199.99,
+    "image": "./src/assets/camisaFortaleza.webp"
+  },
+    {
+    "id": 10,
+    "name": "Camisa do Patético Mineiro",
+    "price": 0.01,
+    "image": "./src/assets/camisaFrangas.webp"
+  },
+    {
+    "id": 11,
+    "name": "Camisa do Gremio",
+    "price": 199.99,
+    "image": "./src/assets/camisaGremio.webp"
+  },
+    {
+    "id": 12,
+    "name": "Camisa do Internacional",
+    "price": 199.99,
+    "image": "./src/assets/camisaInter.webp"
+  },
+    {
+    "id": 13,
+    "name": "Camisa do Juventude",
+    "price": 199.99,
+    "image": "./src/assets/camisaJuventude.webp"
+  },
+    {
+    "id": 14,
+    "name": "Camisa do Mirassol",
+    "price": 199.99,
+    "image": "./src/assets/camisaMirassol.webp"
+  },
+    {
+    "id": 15,
+    "name": "Camisa do Palmeiras",
+    "price": 199.99,
+    "image": "./src/assets/camisaPalmeiras.webp"
+  },
+    {
+    "id": 16,
+    "name": "Camisa do Santos",
+    "price": 199.99,
+    "image": "./src/assets/camisaSantos.webp"
+  },  {
+    "id": 17,
+    "name": "Camisa do São Paulo",
+    "price": 199.99,
+    "image": "./src/assets/camisaSPaulo.webp"
+  },
+    {
+    "id": 18,
+    "name": "Camisa do Sport",
+    "price": 199.99,
+    "image": "./src/assets/camisaSport.webp"
+  },
+    {
+    "id": 19,
+    "name": "Camisa do Vasco da Gama",
+    "price": 199.99,
+    "image": "./src/assets/camisaVasco.webp"
+  },
+    {
+    "id": 20,
+    "name": "Camisa do Vitória",
+    "price": 199.99,
+    "image": "./src/assets/camisaVitoria.webp"
+  }]
+}

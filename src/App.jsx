@@ -1,34 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
+import { useContext, useState } from "react"
+import { ThemeContext } from './context/themeContext'
+import { MenuContext } from './context/menuContext'
+
+import ThemeButton from './Component/Theme'
+import Cart from "./Component/Cart"
+import CartMenu from "./Component/CartMenu"
+
+import Cards from './Component/Cards'
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [themeState, themeDispatch] = useContext(ThemeContext)
+  const theme = themeState.theme
+
+  const [menuState, menuDispatch] = useContext(MenuContext)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className={`App ${theme ? "light" : "dark"}`}>
+      <nav>
+        <ThemeButton ThemeContext={ThemeContext} />
+        <Cart />
+      </nav>
+      {menuState.siteStage === "Shop" && <>
+        <div className="container">
+          <div className="text">
+            <h1>Camisas de Time</h1>
+            <p>encontre aqui as melhores camisas de time dos clubes da primeira divisão brasileira!</p>
+          </div>
+
+          <Cards />
+
+        </div>
+      </>}
+      {menuState.siteStage === "Cart" && <CartMenu/>}
+    </div>
   )
 }
 

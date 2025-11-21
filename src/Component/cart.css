@@ -1,0 +1,13 @@
+.cartCounter.visible{
+    width: 25px;
+    height: 25px;
+    background-color: #2a6ef4;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3.5rem;
+}   
