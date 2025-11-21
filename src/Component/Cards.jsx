@@ -1,6 +1,6 @@
 import { useFetch } from "../hook/useFetch"
 
-import "./Cards.css"
+import "./cards.css"
 
 const url = "http://localhost:3000/products"
 
